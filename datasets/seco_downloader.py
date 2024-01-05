@@ -8,6 +8,10 @@ import time
 from datetime import datetime, timedelta
 import warnings
 warnings.simplefilter('ignore', UserWarning)
+import sys, os
+## print current dir
+print(os.getcwd())
+sys.path.append('datasets/')
 
 import ee
 import numpy as np
